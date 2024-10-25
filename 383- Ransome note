@@ -1,0 +1,3 @@
+ransomNote = 'aa'
+magazine = 'aab'
+print(magazine.__contains__(ransomNote))
