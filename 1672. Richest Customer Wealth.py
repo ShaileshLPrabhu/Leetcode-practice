@@ -7,5 +7,5 @@ for account in accounts:
         sum+=money
     wealth.append(sum)
 
-print(max(wealth))
+print(max(wealth)) 
 
