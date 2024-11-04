@@ -10,4 +10,4 @@ class Solution:
             else:
                 high = Mid + 1
             if high> low:
-                return high
+                return high 
