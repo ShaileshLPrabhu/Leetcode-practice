@@ -1,8 +1,7 @@
-words = ["abc","car","ada","racecar","cool"]
-
-for i in words:
-    if i == i[::-1]:
-        print(i)
-        break
-
-print("nu")
+class Solution:
+    def firstPalindrome(self, words: List[str]) -> str:
+        for i in words:
+            if i == i[::-1]:
+                return i
+        return ""
+        
