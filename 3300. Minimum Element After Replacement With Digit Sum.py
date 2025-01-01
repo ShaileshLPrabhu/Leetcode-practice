@@ -8,3 +8,7 @@ class Solution:
             while num>0:
                 digit_sum+=(num%10)
                 num = num//10
+        
+            nums[i]= digit_sum
+
+        return(min(nums))
