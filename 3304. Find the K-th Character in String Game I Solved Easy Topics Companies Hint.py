@@ -2,6 +2,9 @@ class Solution:
     def generate(self,word:str)->str:
         new_str =''
         for i in word:
+            if i == 'z':
+                new_str+= 'a'
+                continue
             new_str+=chr(ord(i)+1)
         return new_str
     
